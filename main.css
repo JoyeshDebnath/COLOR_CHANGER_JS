@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.color_btn
+{
+    font-size: 1rem;
+    font-family: cursive;
+    padding: 1rem;
+    cursor: pointer;
+    border: 5px solid green;
+    border-radius: 70%;
+    background: rgba(0, 0,0, 0.3);
+    color: crimson;
+    outline: none;
+    text-transform: capitalize;
+    transition: all 2s ease-in-out;
+}
+
+.color_btn:hover
+{
+    background-color: rgba(0, 0, 0);
+    color: aliceblue;
+    border-color: cornsilk;
+}
